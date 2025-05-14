@@ -792,6 +792,10 @@ modéliser. Elle est utilisée pour essayer différents nombres de *topics*
 dans une modélisation LDA dans l’objectif de déterminer quelle valeur de
 `k` octroie la meilleure cohérence.
 
+```{r}
+k_estimation(dfm = dfm_ss_corpus, min_k = 5, max_k = 20, n_tokens = 50)
+```
+
 ![Graphique sur la
 cohérence](Rapport_final_Geoffroy_files/figure-commonmark/Cohrence_20.png)
 ![Graphique sur la
