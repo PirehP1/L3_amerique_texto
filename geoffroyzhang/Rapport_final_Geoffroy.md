@@ -1,6 +1,6 @@
-# Rapport de recherche
+# Rapport de recherche 
 Geoffroy Zhang
-2025-04-08
+2025-05-14
 
 - [Présentation analytique du sous-corpus
   choisi](#présentation-analytique-du-sous-corpus-choisi)
