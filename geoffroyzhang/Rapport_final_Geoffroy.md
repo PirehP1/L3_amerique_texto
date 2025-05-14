@@ -176,8 +176,8 @@ très hétérogène. Certains sont beaucoup plus volumineux que d’autres, ce
 qui peut biaiser l’analyse et les comparaisons. C’est pourquoi, nous
 proposons un découpage plus homogène des documents de notre sous-corpus
 plus bas dans la définition de l’unité documentaire (Voir la partie
-[Définition de l’unité
-documentaire](##%20Définition-de-l'unité-documentaire)).
+ [Définition de l’unité
+    documentaire](#définition-de-lunité-documentaire)
 
 Le protocole, dans la suite du document, permet de décrire et d’explorer
 notre sous-corpus.
