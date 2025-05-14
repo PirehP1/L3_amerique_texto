@@ -241,7 +241,7 @@ corpus_metadata_Amerique |>
 
 <div id="fig-sous-corpus-comparaison">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-sous-corpus-comparaison-1.png)
+![Comparaison du sous-corpus au corpus initial](geoffroyzhang/Rapport_final_Geoffroy_files/fig-sous-corpus-comparaison-1.png)
 
 
 Figure 1: Graphique en bâton des différents sous-corpus du corpus
