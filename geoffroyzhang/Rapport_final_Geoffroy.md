@@ -241,7 +241,7 @@ corpus_metadata_Amerique |>
 
 <div id="fig-sous-corpus-comparaison">
 
-![Comparaison du sous-corpus au corpus initial](geoffroyzhang/Rapport_final_Geoffroy_files/fig-sous-corpus-comparaison-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-sous-corpus-comparaison-1.png)
 
 
 Figure 1: Graphique en bâton des différents sous-corpus du corpus
@@ -271,7 +271,7 @@ corpus_metadata_EastUS |>
 
 <div id="fig-distribution-temporelle">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-distribution-temporelle-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-distribution-temporelle-1.png)
 
 
 Figure 2: Courbe de la distribution temporelle des ouvrages du
@@ -300,7 +300,7 @@ corpus_metadata_EastUS |>
 
 <div id="fig-distribution-graph">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-distribution-graph-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-distribution-graph-1.png)
 
 
 Figure 3: Graphique en bâton de la distribution temporelle des ouvrages
@@ -328,7 +328,7 @@ corpus_metadata_EastUS |>
 
 <div id="fig-graph-nationalite">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-graph-nationalite-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-graph-nationalite-1.png)
 
 
 Figure 4: Graphique en bâton de la nationalité des auteurs du
@@ -356,7 +356,7 @@ corpus_metadata_EastUS |>
 
 <div id="fig-nom-auteur">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-nom-auteur-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-nom-auteur-1.png)
 
 
 Figure 5: Graphique en bâton des noms des différents auteurs du
@@ -385,7 +385,7 @@ corpus_metadata_EastUS |>
 
 <div id="fig-categorie-fonction">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-categorie-fonction-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-categorie-fonction-1.png)
 
 
 Figure 6: Graphique en bâton des fonctions des auteurs du sous-corpus
@@ -415,7 +415,7 @@ corpus_metadata_EastUS |>
 
 <div id="fig-sexe-auteur">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-sexe-auteur-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-sexe-auteur-1.png)
 
 
 Figure 7: Graphique en bâton sur le genre des auteurs du sous-corpus
@@ -494,7 +494,7 @@ plot_pareto(EastUS_dfm)
 
 <div id="fig-courbe-pareto">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-courbe-pareto-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-courbe-pareto-1.png)
 
 
 Figure 8: Représentation de la courbe de pareto du sous-corpus EastUS.
@@ -513,7 +513,7 @@ plot_group_sizes(groups = groups, part="Numm")
 
 <div id="fig-taille-documents">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-taille-documents-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-taille-documents-1.png)
 
 
 Figure 9: Graphique en bâton concernant la taille des ouvrages du
@@ -713,7 +713,7 @@ plot_tm(beta_df, 10)
 
 <div id="fig-Modelisation-LDA-Topics-5">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-Modelisation-LDA-Topics-5-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-Modelisation-LDA-Topics-5-1.png)
 
 
 Figure 10: Modélisation LDA de 5 topics.
@@ -781,7 +781,7 @@ mean(coherence)
 
     [1] -227.2867
 
-Nous obtenons une moyenne de -350.871, soit un résultat assez négatif.
+Nous obtenons une moyenne de -227.2867, soit un résultat assez négatif.
 Autrement dit, on a une faible cohérence sémantique entre les mots des
 *topics*. Les mots n’apparaissent pas souvent dans les mêmes documents.
 Cela induit un changement du nombre de *topic*.
@@ -793,9 +793,9 @@ dans une modélisation LDA dans l’objectif de déterminer quelle valeur de
 `k` octroie la meilleure cohérence.
 
 ![Graphique sur la
-cohérence](geoffroyzhang/Rapport_final_Geoffroy_files/Cohrence_20.png)
+cohérence](Rapport_final_Geoffroy_files/figure-commonmark/Cohrence_20.png)
 ![Graphique sur la
-cohérence](geoffroyzhang/Rapport_final_Geoffroy_files/Evolution_coherence_20.png)
+cohérence](Rapport_final_Geoffroy_files/figure-commonmark/Evolution_coherence_20.png)
 
 La courbe de l’évolution de la cohérence montre que le nombre de *topic*
 influe sur la cohérence. Ainsi, plus on augmente le nombre de *topics*
@@ -865,7 +865,7 @@ plot_tm(beta_df, 10)
 
 <div id="fig-Modelisation-LDA-Topics-8">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-Modelisation-LDA-Topics-8-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-Modelisation-LDA-Topics-8-1.png)
 
 
 Figure 11: Modélisation LDA de 8 topics.
@@ -916,7 +916,7 @@ plot_tm(beta_df, 10)
 
 <div id="fig-Modelisation-LDA-Topics-12">
 
-![](geoffroyzhang/Rapport_final_Geoffroy_files/fig-Modelisation-LDA-Topics-12-1.png)
+![](Rapport_final_Geoffroy_files/figure-commonmark/fig-Modelisation-LDA-Topics-12-1.png)
 
 
 Figure 12: Modélisation LDA de 12 topics.
