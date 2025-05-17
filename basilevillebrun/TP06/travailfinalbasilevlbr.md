@@ -241,7 +241,7 @@ corpus_metadata_USA_louisiane |>
 
 ![Figure 3 : Graphique en bâton de la distribution temporelle des
 ouvrages du sous-corpus
-USA_louisiane.](TP06/figure3.png)
+USA_louisiane.](figure3.png)
 
 La Figure 3 montre une publication importante au tout début des années
 1800, avec 7 ouvrages publiés la même année, puis un seul ouvrage par an
@@ -259,7 +259,7 @@ corpus_metadata_USA_louisiane |>
 ```
 
 ![Figure 4 : Graphique en bâton de la nationalité des auteurs du
-sous-corpus USA_louisiane.](TP06/figure4.png)
+sous-corpus USA_louisiane.](figure4.png)
 
 La Figure 4 nous montre clairement que tous les ouvrages de ce
 sous-corpus ont été rédigés par des auteurs français.
@@ -276,7 +276,7 @@ corpus_metadata_USA_louisiane |>
 ```
 
 ![Figure 5 : Graphique en bâton des noms des différents auteurs du
-sous-corpus USA_louisiane.](TP06/figure5.png)
+sous-corpus USA_louisiane.](figure5.png)
 
 La Figure 5 nous montre une relative égalité des productions d’ouvrages
 par auteurs qui en publient en moyenne un, allant au maximum jusqu’à
@@ -294,7 +294,7 @@ corpus_metadata_USA_louisiane |>
 ```
 
 ![Figure 6 : Graphique en bâton des fonctions des auteurs du sous-corpus
-USA_louisiane.](TP06/figure6.png)
+USA_louisiane.](figure6.png)
 
 La Figure 6 nous montre que la majorité des auteurs sont des hommes de
 lettres, puis ce sont surtout des scientifiques et des militaires. Et
@@ -312,7 +312,7 @@ corpus_metadata_USA_louisiane |>
 ```
 
 ![Figure 7 : Graphique en bâton sur le genre des auteurs du sous-corpus
-USA_louisiane.](TP06/figure7.png)
+USA_louisiane.](figure7.png)
 
 La Figure 7 montre que les auteurs sont majoritairement de sexe
 masculin, contre seulement un auteur de sexe féminin.
@@ -362,7 +362,7 @@ plot_pareto(USA_louisiane_dfm)
 ```
 
 ![Figure 8 : Représentation Courbe de pareto du
-sous-corpus.](TP06/figure8.png)
+sous-corpus.](figure8.png)
 
 **Comparaison de la taille des documents**
 
@@ -372,7 +372,7 @@ plot_group_sizes(groups = groups, part="Numm")
 ```
 
 ![Figure 9 : Graphique en bâton concernant la taille des ouvrages du
-sous-corpus USA_louisiane.](TP06/figure9.png)
+sous-corpus USA_louisiane.](figure9.png)
 
 La Figure 9 montre que les ouvrages du sous-corpus varient beaucoup en
 taille. Certains sont bien plus longs que d’autres, ce qui pose un
@@ -529,7 +529,7 @@ ordinateur, j’ai donc récupéré un tableau que j’avais obtenu en cours
 avec 9 sujets/topics.
 
 ![Figure 10 : Modélisation LDA de 9
-sujets.](TP06/figure10.png)
+sujets.](figure10.png)
 
 **Evaluation de la modélisation thématique à l’aide de la cohérence**
 
