@@ -167,7 +167,7 @@ Création du dataframe des métadonnées :
 
 ``` r
 corpus_metadata_Amerique <- docvars(corpus_amerique)
-print(corpus_metadata_Amerique)
+View(corpus_metadata_Amerique)
 ```
 
                                             ID_edition
@@ -1551,7 +1551,7 @@ Création du sous-corpus USA_louisiane :
 
 ``` r
 USA_louisiane <- corpus_subset(corpus_amerique, Region == "Louisiane")
-print(docvars(USA_louisiane))
+View(docvars(USA_louisiane))
 ```
 
                                            ID_edition
@@ -1643,7 +1643,7 @@ Création du dataframe des métadonnées du sous-corpus USA_louisiane :
 
 ``` r
 corpus_metadata_USA_louisiane <- docvars(USA_louisiane)
-print(corpus_metadata_USA_louisiane)
+View(corpus_metadata_USA_louisiane)
 ```
 
                                            ID_edition
@@ -1951,7 +1951,7 @@ résultats, tandis que les plus courts pèsent moins dans l’analyse.
 
 ``` r
 lexique_USA_louisiane <- textstat_frequency(USA_louisiane_dfm)
-print(lexique_USA_louisiane)
+View(lexique_USA_louisiane)
 ```
 
                         feature frequency  rank docfreq group
