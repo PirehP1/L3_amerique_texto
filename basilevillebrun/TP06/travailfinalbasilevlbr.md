@@ -198,10 +198,8 @@ corpus_metadata_Amerique |>
  coord_flip()
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-7-1.png)
-
 ![Figure 1 : Graphique en bâton des différents sous-corpus du corpus
-initial.](Documents/TP06/figures/figure1.png)
+initial.](TP06/figure1.png)
 
 La Figure 1 montre que sur les 171 ouvrages qui composent le corpus
 initial, 13 recouvrent la Louisiane. En comparaison avec les autres
@@ -220,11 +218,9 @@ corpus_metadata_USA_louisiane |>
   labs(x = "Date", "Fréquences cumulées")
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-8-1.png)
-
 ![Figure 2 : Courbe de la distribution temporelle des ouvrages du
 sous-corpus USA_louisiane (fréquences
-cumulées).](Documents/TP06/figures/figure2.png)
+cumulées).](TP06/figure2.png)
 
 La courbe de la Figure 2 permet d’observer le nombre d’ouvrages, issus
 du sous-corpus, publiés au XIXe siècle. On observe une fréquence de
@@ -243,11 +239,9 @@ corpus_metadata_USA_louisiane |>
   coord_flip()
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-9-1.png)
-
 ![Figure 3 : Graphique en bâton de la distribution temporelle des
 ouvrages du sous-corpus
-USA_louisiane.](Documents/TP06/figures/figure3.png)
+USA_louisiane.](TP06/figure3.png)
 
 La Figure 3 montre une publication importante au tout début des années
 1800, avec 7 ouvrages publiés la même année, puis un seul ouvrage par an
@@ -264,10 +258,8 @@ corpus_metadata_USA_louisiane |>
   coord_flip()
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-10-1.png)
-
 ![Figure 4 : Graphique en bâton de la nationalité des auteurs du
-sous-corpus USA_louisiane.](Documents/TP06/figures/figure4.png)
+sous-corpus USA_louisiane.](TP06/figure4.png)
 
 La Figure 4 nous montre clairement que tous les ouvrages de ce
 sous-corpus ont été rédigés par des auteurs français.
@@ -283,10 +275,8 @@ corpus_metadata_USA_louisiane |>
   coord_flip()
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-11-1.png)
-
 ![Figure 5 : Graphique en bâton des noms des différents auteurs du
-sous-corpus USA_louisiane.](Documents/TP06/figures/figure5.png)
+sous-corpus USA_louisiane.](TP06/figure5.png)
 
 La Figure 5 nous montre une relative égalité des productions d’ouvrages
 par auteurs qui en publient en moyenne un, allant au maximum jusqu’à
@@ -303,10 +293,8 @@ corpus_metadata_USA_louisiane |>
   coord_flip()
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-12-1.png)
-
 ![Figure 6 : Graphique en bâton des fonctions des auteurs du sous-corpus
-USA_louisiane.](Documents/TP06/figures/figure6.png)
+USA_louisiane.](TP06/figure6.png)
 
 La Figure 6 nous montre que la majorité des auteurs sont des hommes de
 lettres, puis ce sont surtout des scientifiques et des militaires. Et
@@ -323,10 +311,8 @@ corpus_metadata_USA_louisiane |>
   coord_flip()
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-13-1.png)
-
 ![Figure 7 : Graphique en bâton sur le genre des auteurs du sous-corpus
-USA_louisiane.](Documents/TP06/figures/figure7.png)
+USA_louisiane.](TP06/figure7.png)
 
 La Figure 7 montre que les auteurs sont majoritairement de sexe
 masculin, contre seulement un auteur de sexe féminin.
@@ -375,12 +361,8 @@ distribution des mots dans le sous-corpus :
 plot_pareto(USA_louisiane_dfm)
 ```
 
-    Loading required package: quanteda.textstats
-
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-18-1.png)
-
 ![Figure 8 : Représentation Courbe de pareto du
-sous-corpus.](Documents/TP06/figures/figure8.png)
+sous-corpus.](TP06/figure8.png)
 
 **Comparaison de la taille des documents**
 
@@ -389,10 +371,8 @@ groups <- group_sizes(USA_louisiane_dfm, part="Numm")
 plot_group_sizes(groups = groups, part="Numm")
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-19-1.png)
-
 ![Figure 9 : Graphique en bâton concernant la taille des ouvrages du
-sous-corpus USA_louisiane.](Documents/TP06/figures/figure9.png)
+sous-corpus USA_louisiane.](TP06/figure9.png)
 
 La Figure 9 montre que les ouvrages du sous-corpus varient beaucoup en
 taille. Certains sont bien plus longs que d’autres, ce qui pose un
@@ -451,18 +431,11 @@ sum(ntoken(toks_nostop))
     [1] 264338
 
 ``` r
-# Là encore, cela n'a pas fonctionné sur mon ordinateur.
-```
-
-``` r
 sum(ntype(toks_nostop))
 ```
 
     [1] 91364
 
-``` r
-# Là encore, cela n'a pas fonctionné sur mon ordinateur.
-```
 
 **Définition de l’unité documentaire**
 
@@ -551,14 +524,12 @@ beta_df <- get_beta(res_lda)
 plot_tm(beta_df, 10)
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-32-1.png)
-
 Là encore, les trois dernières commandes n’ont pas fonctionné sur mon
 ordinateur, j’ai donc récupéré un tableau que j’avais obtenu en cours
 avec 9 sujets/topics.
 
 ![Figure 10 : Modélisation LDA de 9
-sujets.](Documents/TP06/figures/figure10.png)
+sujets.](TP06/figure10.png)
 
 **Evaluation de la modélisation thématique à l’aide de la cohérence**
 
@@ -589,10 +560,6 @@ topics à modéliser :
 ``` r
 k_estimation(dfm = dfm_ss_corpus, min_k = 5, max_k = 20, n_tokens = 50)
 ```
-
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-36-1.png)
-
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-36-2.png)
 
         k coherence
     1   5 -211.3256
@@ -656,8 +623,6 @@ beta_df <- get_beta(res_lda)
 plot_tm(beta_df, 10)
 ```
 
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-39-1.png)
-
 Là encore, ça n’a pas fonctionné…
 
 Modélisation avec 12 sujets :
@@ -701,8 +666,6 @@ beta_df <- get_beta(res_lda)
 ``` r
 plot_tm(beta_df, 10)
 ```
-
-![](travailfinalbasilevlbr_files/figure-commonmark/unnamed-chunk-42-1.png)
 
 Là encore, ça n’a pas fonctionné…
 
