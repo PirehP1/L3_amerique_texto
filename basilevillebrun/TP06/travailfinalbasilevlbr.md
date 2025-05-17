@@ -199,7 +199,7 @@ corpus_metadata_Amerique |>
 ```
 
 ![Figure 1 : Graphique en bâton des différents sous-corpus du corpus
-initial.](TP06/figure1.png)
+initial.](figure1.png)
 
 La Figure 1 montre que sur les 171 ouvrages qui composent le corpus
 initial, 13 recouvrent la Louisiane. En comparaison avec les autres
@@ -220,7 +220,7 @@ corpus_metadata_USA_louisiane |>
 
 ![Figure 2 : Courbe de la distribution temporelle des ouvrages du
 sous-corpus USA_louisiane (fréquences
-cumulées).](TP06/figure2.png)
+cumulées).](figure2.png)
 
 La courbe de la Figure 2 permet d’observer le nombre d’ouvrages, issus
 du sous-corpus, publiés au XIXe siècle. On observe une fréquence de
