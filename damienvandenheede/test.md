@@ -330,3 +330,16 @@ Nous pouvons voir que lorsqu'il n'y a que six topics, ils sont trop généraux. 
 
 # Description des sujets.
 
+Le premier topic représente les peuples qui étaient présents au Canada quand les Européens sont arrivés. Nous pouvons voir " les Iroquois." 
+Le deuxième évoque le commerce lié à la pêche. Ce qui est très important dans une société chrétienne qui ne mange pas de viande le vendredi. 
+Le troisième la conquête du territoire par les Français, rappelons que le royaume de France a perdu le Canada en 1763, suite à la défaite de la France lors de la guerre de sept ans (1756-1763).
+Le quatrième évoque l'installation des colons et de l'administration française dans la colonie.
+Le cinquième évoque le commerce avec les "français", et les "américains", la monnaie le "franc" est mentionné. Cela nous indique que le commerce est encore présent au XIXe siècle entre le Canada et les Français. 
+Le sixième, le milieu dans lequel vivaient les "indiens". La "ville" dans laquelle ils vivent est dans un milieu naturel.
+Le septième évoque l'armée.
+Le huitième les routes commerciales.
+Le neuvième, le commerce côtier.
+Le dixième le lien entre les hommes et la nature. Nous pouvons supposer que c'est pour l'exploiter.
+Le onzième et le douzième évoquent l'armée.
+Le treizième le lien entre la France et l'Amérique.
+Le dernier nous donne des informations sur la population.
