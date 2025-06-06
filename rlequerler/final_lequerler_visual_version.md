@@ -80,7 +80,7 @@ Notre corpus est donc composé de textes écrits en français traitant de
 l’ouest américain et publiés entre 1819 et 1913 (les limites des
 ouvrages le composant, mais nous reviendront dessus)
 
-\##Notre corpus et la notion d’heuristique (Mayaffre 2002)
+## Notre corpus et la notion d’heuristique (Mayaffre 2002)
 
 La dimension heuristique de ce corpus réside dans la période meme de
 publication des ouvrages. En effet, dans l’histoire américaine, ou dans
@@ -132,7 +132,7 @@ erreur de codage des zones géographiques, faite au premier semestre.
 Cependant, ne pouvant les supprimer, nous faisons le choix contraint de
 les conserver dans notre étude.
 
-\#Chargement des paquets R nécessaires et setting du work directory.
+# Chargement des paquets R nécessaires et setting du work directory.
 
 On importe les textes du corpus avec `readtext`.
 
@@ -342,13 +342,13 @@ produire une analyse plus efficace, nous devrons retravailler la
 définition de l’unité documentaire, qui ne peut être l’ouvrage, tant les
 ecarts sont importants.
 
-\#Explicitation et prétraitement
+# Explicitation et prétraitement
 
 Dans cette partie, nous commencerons à manipuler notre sous-corpus afin
 de le prétraiter. Ces opérations préliminaires, ont pour but de
 faciliter l’analyse de notre corpus.
 
-\##Retrait des mots outils
+## Retrait des mots outils
 
 Les mots outils désignent des unités linguistiques grammaticales
 (articles, prépositions, conjonctions, pronoms, auxiliaires, etc.) qui
@@ -1005,7 +1005,7 @@ frontières des états unis et sur ces vastes plaines, sur ces prairies
 tristes et désertes ». Toutes ces raisons démontre l’importance des
 descriptions dans les ouvrages traitant de l’ouest étasuniens.
 
-\##Conclusion de l’analyse
+# Conclusion de l’analyse
 
 Comme nous venons de le voir, les principaux topics de notre corpus, se
 concentrent autour des descriptions des nouveaux espaces et des
